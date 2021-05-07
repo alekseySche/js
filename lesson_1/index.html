@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var tempC = 36.6;
+        var tempF;
+        tempF = (9 / 5) * tempC + 32;
+        alert('Температура по шкале Фаренгейта: ' + tempF);
+    </script>
+
+    <script>
+        var name;
+        var admin;
+        name = 'Василий';
+        admin = name;
+        console.log(admin);
+        alert(admin);
+    </script>
+
+    <h3>Чему будет равно JS-выражение 1000 + "108"</h3>
+    Ответ: 1000108 - неявное приведение типов
+
+    <h3>Самостоятельно разобраться с атрибутами тега script (async и defer)</h3>
+
+    Эти атрибуты используются для асинхронной(одновременной) загрузки скриптов и самой страницы.
+    Async - первым выполнится тот скрипт, который загрузился первым.
+    Defer - скрипты будут выполнятся в том порядке, в котором они добавлены на страницу.
+    Используются для внешних скриптов.
+
+</body>
+
+</html>
